@@ -1,3 +1,7 @@
+qmmp-qt5 (QT based multimedia player)
+
+This is the qt5 version. For the qt4 version, see the qmmp SlackBuild.
+
 Qmmp is an audio-player, written with help of Qt library.
 The user interface is similar to winamp or xmms.
 
