@@ -5,6 +5,6 @@ DOWNLOAD="https://github.com/aio-libs/multidict/archive/v4.5.2/multidict-4.5.2.t
 MD5SUM="cc6165ef9d173131eddd6e1e2f28dbb1"
 DOWNLOAD_x86_64=""
 MD5SUM_x86_64=""
-REQUIRES="python3 python3-Cython"
+REQUIRES="python3-Cython"
 MAINTAINER="Isaac Yu"
 EMAIL="isaacyu1@isaacyu1.com"
