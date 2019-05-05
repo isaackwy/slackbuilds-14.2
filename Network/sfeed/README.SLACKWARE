@@ -1,4 +1,4 @@
-The following instructions are taken from /usr/share/doc/sfeed/README:
+The following instructions are taken from /usr/doc/sfeed-0.9.9/README:
 
 - Initialize sfeed folders: 
 mkdir -p "$HOME/.sfeed/feeds"
