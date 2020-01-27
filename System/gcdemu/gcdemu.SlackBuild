@@ -26,7 +26,7 @@
 PRGNAM=gcdemu
 VERSION=${VERSION:-3.2.4}
 ARCH=noarch
-BUILD=${BUILD:-1}
+BUILD=${BUILD:-2}
 TAG=${TAG:-_SBo}
 
 CWD=$(pwd)
