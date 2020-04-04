@@ -73,9 +73,10 @@ find -L . \
 # https://aur.archlinux.org/packages/libtrash/
 sed -i -e s/ldconfig// ./src/Makefile
 sed -i -e s/python/python2/ ./src/Makefile
- 
+
 make
-make install DESTDIR=/usr/lib SYSCONFFILE=/etc
+install -d $PKG/usr/lib $PKG/etc
+make install INSTLIBDIR=$PKG/usr/lib SYSCONFFILE=$PKG/etc/libtrash.conf
 
 find $PKG -print0 | xargs -0 file | grep -e "executable" -e "shared object" | grep ELF \
   | cut -f 1 -d : | xargs strip --strip-unneeded 2> /dev/null || true
