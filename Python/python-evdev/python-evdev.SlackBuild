@@ -24,10 +24,11 @@
 #  ADVISED OF THE POSSIBILITY OF SUCH DAMAGE.
 
 PRGNAM=python-evdev
-SRCNAM=evdev
 VERSION=${VERSION:-1.4.0}
 BUILD=${BUILD:-1}
 TAG=${TAG:-_SBo}
+
+SRCNAM=evdev
 
 if [ -z "$ARCH" ]; then
   case "$( uname -m )" in
