@@ -1,4 +1,4 @@
-RGNAM="python3-aiohttp"
+PRGNAM="python3-aiohttp"
 VERSION="3.7.3"
 HOMEPAGE="https://aiohttp.readthedocs.io/en/stable/"
 DOWNLOAD="https://github.com/aio-libs/aiohttp/archive/v3.7.3/aiohttp-3.7.3.tar.gz"
