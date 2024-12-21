@@ -1,4 +1,4 @@
-This repository contains slackbuilds which I have maintained for Slackware 14.2.
+This repository contains slackbuilds which I had maintained for Slackware 14.2.
 
 SlackBuilds submissions are closed for 14.2. Hence, I have archived this repository.
 
